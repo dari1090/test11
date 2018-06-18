@@ -21,6 +21,7 @@ public class CamelApplication implements Application, Serviceable {
 	public void init(ApplicationContext context) {
 		
 		log.info("init camel servcie app11");
+		log.info("test!!!!");
 		log.info("props = " + context.getProperties());
 		String routeConfigFile = context.getProperty("route_xml_file");
 		

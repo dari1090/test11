@@ -34,7 +34,7 @@ public class CamelApplication implements Application, Serviceable {
 
 	
 	public void destroy(ApplicationContext context) {
-		log.info("destory camel service app");
+		log.info("destory camel service app11");
 		try{
 			main.shutdown();
 		}catch(Throwable t){

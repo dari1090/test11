@@ -1,4 +1,6 @@
+package kr.co.bizframe.mas.camel;
 
+import java.util.List;
 
 import org.apache.camel.CamelContext;
 import org.apache.camel.spring.Main;
@@ -18,7 +20,7 @@ public class CamelApplication implements Application, Serviceable {
 	
 	public void init(ApplicationContext context) {
 		
-		log.info("init camel servcie app");
+		log.info("init camel servcie app11");
 		log.info("props = " + context.getProperties());
 		String routeConfigFile = context.getProperty("route_xml_file");
 		
